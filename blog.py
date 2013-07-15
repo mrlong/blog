@@ -38,7 +38,7 @@ class View:
 class New:
 	form = web.form.Form(
 		web.form.Textbox('title',web.form.notnull,size=30,description="Post title:"),
-		web.form.Textarea('content',web.form.notnull,rows=30,cols=80,description="Post content:"),
+		web.form.Textarea('content',web.form.notnull,rows=30,cols=60,description="Post content:"),
 		web.form.Button('Post entry'),
 
 	)
